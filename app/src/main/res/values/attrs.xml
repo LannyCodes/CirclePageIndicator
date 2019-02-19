@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ProgressRing">
+        <!--进度起始色-->
+        <attr name="pr_progress_start_color" format="color" />
+        <!--进度结束色-->
+        <attr name="pr_progress_end_color" format="color" />
+        <!--背景起始色-->
+        <attr name="pr_bg_start_color" format="color" />
+        <!--背景中间色-->
+        <attr name="pr_bg_mid_color" format="color" />
+        <!--背景结束色-->
+        <attr name="pr_bg_end_color" format="color" />
+        <attr name="pr_progress" format="integer" />
+        <attr name="pr_progress_width" format="dimension" />
+        <attr name="pr_start_angle" format="integer" />
+        <attr name="pr_sweep_angle" format="integer" />
+        <attr name="pr_show_anim" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="ColorRing">
+        <attr name="cr_start_color" format="color" />
+        <attr name="cr_end_color" format="color" />
+        <!--圆环宽度-->
+        <attr name="cr_stroke_width" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="TimelineProgressCircle">
+        <attr name="tl_out_cir_radius" format="dimension" />
+        <attr name="tl_out_cir_color" format="color" />
+        <attr name="tl_inner_cir_radius" format="dimension" />
+        <attr name="tl_inner_cir_color" format="color" />
+        <attr name="tl_arc_stroke_width" format="dimension" />
+        <attr name="tl_arc_color" format="color" />
+    </declare-styleable>
+</resources>
